@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    padding: 25px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.forms {
+    color: black;
+    padding-top: 12px;
+}
+
+.new {
+    font-size: 35px;
+}
+
+.admins {
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+    color: black;
+}
+
+.admins:hover {
+    color: #ea4f4c;
+}
