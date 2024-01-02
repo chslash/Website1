@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home Page</title>
   <link rel="stylesheet" href="navbar2.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <header>
@@ -27,12 +28,35 @@
 </header>
 
 <main>
-    <div style="padding-top: 5%;">
-      <div>
-        <!-- <p style="font-size: 40px; margin-left: 10%; text-decoration: underline;"><b>Research Team</b></p> -->
+    <div style="padding-top: 4%;">
+      <a href="admin-updates.html"><p class="admins">Admin login</p></a>
+
+      <div style="margin: 4%;">
+        <div class="imgs">
+          <!-- <p style="font-size: 40px; margin-top: 10%; text-decoration: underline;"><b>Research Team</b></p> -->
         <img src="qr-forms.png">
-        <a href="forms.html" style="color: black;">hello</a>
-      </div>
+        <a class="forms" href="forms.html">Click Here</a>
+        </div>
+        
+        <div class="new"><strong>What's New ?</strong></div>
+        
+        <span class="paras">
+          <ul>
+            <!-- Display updated paragraphs -->
+            <li><p>P1: <span id="display1"></span></p></li>
+            <li><p>P2: <span id="display2"></span></p></li>
+            <li><p>P3: <span id="display3"></span></p></li>
+          </ul>
+        </span>
+
+        <script>
+            // Retrieve data from localStorage and display
+            document.getElementById("display1").innerText = localStorage.getItem("userInput1") || "Not updated";
+            document.getElementById("display2").innerText = localStorage.getItem("userInput2") || "Not updated";
+            document.getElementById("display3").innerText = localStorage.getItem("userInput3") || "Not updated";
+        </script>
+        
+    </div>
 </main>
 </body>
 </html>
