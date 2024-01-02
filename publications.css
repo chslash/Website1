@@ -90,4 +90,6 @@ a {
     background-color: rgb(162, 162, 162);
     font-size: 13px;
     border-radius: 4px;
+    display: inline-block;
+    margin-right: 5px;
 }
