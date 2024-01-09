@@ -1,0 +1,87 @@
+/*main*/
+.container {
+display: flex;
+align-items: center;
+justify-content: left;
+line-height: 13px;
+}
+
+/* all students */
+
+.image {
+width: 120px;
+height:120px;
+border-radius: 50%;
+filter: drop-shadow(#908f8f 0.5rem 0.5rem 23px);
+border: #222 0.5px solid;
+object-fit: cover;
+}
+
+.text {
+font-size: 20px;
+padding-left: 20px;
+}
+
+.image2 {  
+width: 15px;
+height: 15px;
+} 
+
+main {
+background: rgb(245, 245, 224);
+height: 100%;
+padding-top: 50px;
+transform-origin: left center;
+transition: transform 0.6s 50ms;
+width: 100%; 
+color: black; 
+}
+
+.container {
+margin: 0 auto;
+width: 80%;
+}
+
+/*nidhi goyal*/
+
+.container1 {
+line-height: 13px;
+margin: 0 auto;
+width: 80%;    
+display: flex;   
+align-items: center;
+justify-content: center;
+}
+    
+.imagef {
+width: 150px;
+height:150px;
+border-radius: 50%;
+filter: drop-shadow(#868585 0.5rem 0.5rem 20px);
+background-color: #f7f5eb;
+border: #222 2px solid;
+}
+      
+.text1 {
+font-size: 40px;
+padding-left: 30px;
+margin-bottom: 0;
+}
+    
+.image21 {  
+width: 20px;
+height: 20px;
+} 
+
+@media (max-width: 800px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 20px;
+        line-height: 20px;
+    }
+    .container1 {
+        line-height: 30px;
+    }
+}

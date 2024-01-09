@@ -1,0 +1,32 @@
+.marg {
+    margin: 4%; 
+}
+
+.imgs {
+    width: 90px;
+    height: 90px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.paras {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    line-height: 23px;
+}
+
+.hrs {
+    margin: 4% 0;
+}
+
+@media (max-width: 400px) {
+    .marg {
+        margin-top: 15%;
+    }
+}
